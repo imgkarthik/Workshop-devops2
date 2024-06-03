@@ -1,4 +1,4 @@
-FROM openjdk:10
+FROM openjdk:78
 ADD jarstaging/com/valaxy/demo-workshop/2.1.2/demo-workshop-2.1.2.jar Namtrend.jar
 ENTRYPOINT [ "java", "-jar", "Namtrend.jar" ]
 
